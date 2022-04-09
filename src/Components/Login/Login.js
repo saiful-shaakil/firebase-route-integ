@@ -94,12 +94,12 @@ const Login = () => {
               </div>
               <div className="flex flex-wrap mt-6">
                 <div className="w-1/2">
-                  <a href="#pablo" className="text-blue-300">
+                  <a href="#" className="text-blue-300">
                     <small>Forgot password?</small>
                   </a>
                 </div>
                 <div className="w-1/2 text-right">
-                  <a href="#pablo" className="text-blue-300">
+                  <a href="#" className="text-blue-300">
                     <small>Create new account</small>
                   </a>
                 </div>
