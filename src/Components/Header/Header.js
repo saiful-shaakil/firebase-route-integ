@@ -18,12 +18,13 @@ const Header = () => {
       <Link className="mx-1.5 text-xl" to="/register">
         Register
       </Link>
-      <span className="text-xl text-blue-600 mx-1.5">
-        {" "}
+      <span className="text-xl text-blue-600">
         {user?.displayName && user.displayName}
       </span>
       {user?.uid ? (
-        <button onClick={handleSignOut}>Sign Out</button>
+        <button className="mx-1.5 text-red-500" onClick={handleSignOut}>
+          Sign Out
+        </button>
       ) : (
         <Link className="mx-1.5 text-xl" to="/login">
           Login
